@@ -1,5 +1,5 @@
 import streamlit as st
-st.set_page_config(page_title="Omakase Sushi Bowl — SAVOUR", page_icon="🍽️", layout="wide")
+st.set_page_config(page_title="Sushi Nigiri — SAVOUR", page_icon="🍽️", layout="wide")
 st.markdown("""<style>
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap');
 .stApp{background-color:#faf6f1}[data-testid="stSidebar"]{display:none}
@@ -22,7 +22,7 @@ st.markdown("""<style>
 
 if st.button("← Zurück zur Übersicht"): st.switch_page("app.py")
 
-st.markdown('<div class="recipe-hero"><div class="recipe-emoji">🍣</div><div class="recipe-title">Omakase Sushi Bowl</div><div class="recipe-tag">Japanisch</div><div class="divider"></div></div>', unsafe_allow_html=True)
+st.markdown('<div class="recipe-hero"><div class="recipe-emoji">🍣</div><div class="recipe-title">Sushi Nigiri</div><div class="recipe-tag">Japanisch</div><div class="divider"></div></div>', unsafe_allow_html=True)
 st.markdown('<div class="img-placeholder-large">📸</div>', unsafe_allow_html=True)
 
 c1,c2,c3=st.columns(3)

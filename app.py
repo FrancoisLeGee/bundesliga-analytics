@@ -165,7 +165,7 @@ st.markdown('<div class="section-title">Unsere Rezepte</div>', unsafe_allow_html
 st.markdown('<div class="section-sub">Klicke auf ein Gericht für das volle Rezept</div>', unsafe_allow_html=True)
 
 dishes = [
-    {"id": "omakase", "emoji": "🍣", "name": "Omakase Sushi Bowl", "desc": "Frischer Fisch auf warmem Sushi-Reis, mit Sojasauce und Wasabi.", "tag": "Japanisch"},
+    {"id": "nigiri", "emoji": "🍣", "name": "Sushi Nigiri", "desc": "Handgeformter Reis mit frischem Fisch — die Essenz japanischer Küche.", "tag": "Japanisch"},
     {"id": "croissant", "emoji": "🥐", "name": "Butter-Croissant", "desc": "72 Stunden Teigführung, echte französische Butter, goldbraun gebacken.", "tag": "Französisch"},
     {"id": "pici", "emoji": "🍝", "name": "Pici al Ragù", "desc": "Handgerollte toskanische Pasta mit langsam geschmortem Wildschein-Ragù.", "tag": "Italienisch"},
     {"id": "tacos", "emoji": "🌮", "name": "Tacos al Pastor", "desc": "Mariniertes Schweinefleisch vom Drehspieß mit karamellisierter Ananas.", "tag": "Mexikanisch"},
